@@ -2790,6 +2790,47 @@
     node-fetch "^2.6.7"
     winston "^3.2.1"
 
+"@backstage/plugin-azure-devops-backend@^0.3.18":
+  version "0.3.18"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-azure-devops-backend/-/plugin-azure-devops-backend-0.3.18.tgz#a0ec8614acdbeac2f0d7484ec952c21c03820ece"
+  integrity sha512-XbmXHD2xtC4Y3KFFpaWtMaZHQvtCN63MuwRdD8HuBRiNPXlt2BosqcmXKrlCb9uMOKhsfweDC/M7b82k8si1Tw==
+  dependencies:
+    "@backstage/backend-common" "^0.17.0"
+    "@backstage/config" "^1.0.5"
+    "@backstage/plugin-azure-devops-common" "^0.3.0"
+    "@types/express" "^4.17.6"
+    azure-devops-node-api "^11.0.1"
+    express "^4.17.1"
+    express-promise-router "^4.1.0"
+    mime-types "^2.1.27"
+    p-limit "^3.1.0"
+    winston "^3.2.1"
+    yn "^4.0.0"
+
+"@backstage/plugin-azure-devops-common@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-azure-devops-common/-/plugin-azure-devops-common-0.3.0.tgz#4fc26734709b2a6f3298841ffdeaad10c9f58be2"
+  integrity sha512-290NPPr88gF0QlUpSu8uYNKE2HtZlZlOq8g4xExZ9JeMu3UFqftCcW7NT5jXC/ZeATep0ezYn8c4Uj0VxCBGKA==
+
+"@backstage/plugin-azure-devops@^0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-azure-devops/-/plugin-azure-devops-0.2.4.tgz#021718a428e9ae84fef6b59ad9e3762d3cf28354"
+  integrity sha512-KDpaWR6OOJHZwoAg/7DleQgENetiyvqxTABqwbzH3wTIsZ+2VwLYb+yCu9ZMNlxbhkePTHM8pYXNqdj9JvgZZQ==
+  dependencies:
+    "@backstage/catalog-model" "^1.1.4"
+    "@backstage/core-components" "^0.12.2"
+    "@backstage/core-plugin-api" "^1.2.0"
+    "@backstage/errors" "^1.1.4"
+    "@backstage/plugin-azure-devops-common" "^0.3.0"
+    "@backstage/plugin-catalog-react" "^1.2.3"
+    "@backstage/theme" "^0.2.16"
+    "@material-ui/core" "^4.12.2"
+    "@material-ui/icons" "^4.9.1"
+    "@material-ui/lab" "4.0.0-alpha.57"
+    humanize-duration "^3.27.0"
+    luxon "^3.0.0"
+    react-use "^17.2.4"
+
 "@backstage/plugin-catalog-backend-module-github@^0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend-module-github/-/plugin-catalog-backend-module-github-0.2.2.tgz#d0510d9ace9bc28567cf55b3a62d0a9457a64de5"
@@ -12343,7 +12384,7 @@ human-signals@^2.1.0:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
 
-humanize-duration@^3.25.1:
+humanize-duration@^3.25.1, humanize-duration@^3.27.0:
   version "3.27.3"
   resolved "https://registry.yarnpkg.com/humanize-duration/-/humanize-duration-3.27.3.tgz#db654e72ebf5ccfe232c7f56bc58aa3a6fe4df88"
   integrity sha512-iimHkHPfIAQ8zCDQLgn08pRqSVioyWvnGfaQ8gond2wf7Jq2jJ+24ykmnRyiz3fIldcn4oUuQXpjqKLhSVR7lw==
