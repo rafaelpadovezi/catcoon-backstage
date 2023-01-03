@@ -61,6 +61,8 @@ import {
   isAzurePipelinesAvailable,
 } from '@backstage/plugin-azure-devops';
 
+import { EntitySonarQubeCard } from '@backstage/plugin-sonarqube';
+
 const techdocsContent = (
   <EntityTechdocsContent>
     <TechDocsAddons>
@@ -125,6 +127,9 @@ const overviewContent = (
     {entityWarningContent}
     <Grid item md={6}>
       <EntityAboutCard variant="gridItem" />
+    </Grid>
+    <Grid item md={6}>
+      <EntitySonarQubeCard variant="gridItem" />
     </Grid>
     <Grid item md={6} xs={12}>
       <EntityCatalogGraphCard variant="gridItem" height={400} />

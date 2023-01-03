@@ -102,3 +102,7 @@ azureDevOps:
   host: dev.azure.com
   token: ${AZURE_TOKEN}
   organization: ${AZURE_ORGANIZATION}
+
+sonarqube:
+  baseUrl: https://sonarcloud.io
+  apiKey: ${SONAR_CLOUD_TOKEN}

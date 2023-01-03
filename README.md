@@ -79,3 +79,21 @@ yarn add --cwd packages/app @backstage/plugin-azure-devops
 ```
 
 And update frontend files
+
+#### Sonar
+
+##### Frontend
+
+Following https://github.com/backstage/backstage/blob/master/plugins/sonarqube/README.md
+
+```sh
+# From your Backstage root directory
+yarn add --cwd packages/app @backstage/plugin-sonarqube
+```
+
+##### Backend
+
+```sh
+# From your Backstage root directory
+yarn add --cwd packages/backend @backstage/plugin-sonarqube-backend
+```
